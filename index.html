@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Racing Game</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #111; color: white; font-family: sans-serif;}
+    #ui {
+      position: absolute; top: 10px; left: 10px; z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="ui">
+    <div>Lap: <span id="lap">0</span>/3</div>
+    <div>Time: <span id="time">0</span>s</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.156.0/build/three.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
